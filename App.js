@@ -1,5 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, 
+  Text, 
+  View,
+  KeyboardAvoidingView,
+  TextInput,
+   } from 'react-native';
 import { Platform } from 'expo-core';
 
 export default class App extends React.Component {
