@@ -6,7 +6,9 @@ import { StyleSheet,
   TextInput,
    } from 'react-native';
 import { Platform } from 'expo-core';
-import SearchInput from './components/SearchInput'
+import SearchInput from './components/SearchInput';
+import getImageForWeather from './utils/getImageForWeather';
+
 export default class App extends React.Component {
   constructor(props){
     super(props);
