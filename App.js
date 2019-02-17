@@ -14,7 +14,7 @@ export default class App extends React.Component {
   }
   render() {
     return (
-      <View style={styles.container}>
+      <KeyboardAvoidingView style={styles.container}>
         <Text style={[styles.largeText,styles.text]}> San Franscisco</Text>
         <Text style={[styles.largeText,styles.text]}>Light Cloud</Text>
         <Text style={[styles.largeText,styles.text]}>24°</Text>
@@ -25,7 +25,7 @@ export default class App extends React.Component {
         placeholderTextColor="white"
         clearButtonMode="always"
         />
-      </View>
+      </KeyboardAvoidingView>
     );
   }
 }
