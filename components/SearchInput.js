@@ -28,6 +28,6 @@ container: {
 },
 textInput:{
     flex: 1,
-    color: 'white',
+    color: '#000',
 },
 });
